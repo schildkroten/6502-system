@@ -74,7 +74,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "Fabrication/")
 		)
 	)
 	(net 0 "")
@@ -8924,7 +8924,7 @@
 	)
 	(gr_rect
 		(start 62.48 29.04)
-		(end 247.75 107.2)
+		(end 247.48 107.04)
 		(stroke
 			(width 0.05)
 			(type solid)
