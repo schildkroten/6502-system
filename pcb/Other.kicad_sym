@@ -1277,7 +1277,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "MCO-1510A"
+	(symbol "Clock"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1289,7 +1289,7 @@
 				)
 			)
 		)
-		(property "Value" "MCO-1510A"
+		(property "Value" "Clock"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1324,7 +1324,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "MCO-1510A_0_1"
+		(symbol "Clock_0_1"
 			(rectangle
 				(start -5.08 5.08)
 				(end 5.08 -5.08)
@@ -1350,7 +1350,7 @@
 				)
 			)
 		)
-		(symbol "MCO-1510A_1_1"
+		(symbol "Clock_1_1"
 			(pin power_in line
 				(at 0 7.62 270)
 				(length 2.54)
