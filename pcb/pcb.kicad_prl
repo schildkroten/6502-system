@@ -5,22 +5,22 @@
     "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [],
-    "high_contrast_mode": 0,
+    "high_contrast_mode": 1,
     "net_color_mode": 1,
     "opacity": {
-      "images": 0.6,
-      "pads": 1.0,
+      "images": 1.0,
+      "pads": 0.46000000834465027,
       "shapes": 1.0,
       "tracks": 1.0,
       "vias": 1.0,
-      "zones": 0.6
+      "zones": 1.0
     },
     "selection_filter": {
       "dimensions": true,
       "footprints": true,
       "graphics": true,
       "keepouts": true,
-      "lockedItems": false,
+      "lockedItems": true,
       "otherItems": true,
       "pads": true,
       "text": true,
@@ -32,7 +32,6 @@
       "vias",
       "footprint_text",
       "footprint_anchors",
-      "ratsnest",
       "grid",
       "footprints_front",
       "footprints_back",
@@ -43,14 +42,12 @@
       "drawing_sheet",
       "bitmaps",
       "pads",
-      "zones",
       "drc_warnings",
       "drc_exclusions",
-      "locked_item_shadows",
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "ffffffff_ffffffff_ffffffff_dfffffaf",
+    "visible_layers": "ffffffff_ffffffff_ffffffff_ffffffff",
     "zone_display_mode": 0
   },
   "git": {
@@ -64,6 +61,8 @@
   },
   "net_inspector_panel": {
     "col_hidden": [
+      false,
+      false,
       false,
       false,
       false,
@@ -89,7 +88,9 @@
       8,
       9,
       10,
-      11
+      11,
+      12,
+      13
     ],
     "col_widths": [
       156,
@@ -100,6 +101,8 @@
       103,
       103,
       74,
+      103,
+      103,
       103,
       103,
       103,
